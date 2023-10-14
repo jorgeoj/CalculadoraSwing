@@ -39,6 +39,7 @@ public class VentanaCalculadora {
         buttonAC.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText("");
             }
         });
@@ -46,6 +47,7 @@ public class VentanaCalculadora {
         button9.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button9.getText());
             }
         });
@@ -53,6 +55,7 @@ public class VentanaCalculadora {
         button8.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button8.getText());
             }
         });
@@ -60,6 +63,7 @@ public class VentanaCalculadora {
         button7.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button7.getText());
             }
         });
@@ -67,6 +71,7 @@ public class VentanaCalculadora {
         button6.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button6.getText());
             }
         });
@@ -74,6 +79,7 @@ public class VentanaCalculadora {
         button5.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button5.getText());
             }
         });
@@ -81,6 +87,7 @@ public class VentanaCalculadora {
         button4.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button4.getText());
             }
         });
@@ -88,6 +95,7 @@ public class VentanaCalculadora {
         button3.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button3.getText());
             }
         });
@@ -95,6 +103,7 @@ public class VentanaCalculadora {
         button2.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button2.getText());
             }
         });
@@ -102,6 +111,7 @@ public class VentanaCalculadora {
         button1.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button1.getText());
             }
         });
@@ -109,6 +119,7 @@ public class VentanaCalculadora {
         button0.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                buttonBorrar.setEnabled(true);
                 txtSalida.setText(txtSalida.getText()+ button0.getText());
             }
         });
@@ -179,43 +190,32 @@ public class VentanaCalculadora {
             @Override
             public void actionPerformed(ActionEvent e) {
                 op2 = Double.parseDouble(txtSalida.getText());
+                buttonBorrar.setEnabled(false);
 
-                /*
-                if (operacion == "+"){
-                    resultado = op1 + op2;
-                    txtSalida.setText(String.valueOf(resultado));
-                } else if (operacion == "-") {
-                    resultado = op1 - op2;
-                    txtSalida.setText(String.valueOf(resultado));
-                } else if (operacion == "*") {
-                    resultado = op1 * op2;
-                    txtSalida.setText(String.valueOf(resultado));
-                } else if (operacion == "/") {
-                    resultado = op1 / op2;
-                    txtSalida.setText(String.valueOf(resultado));
-                }
-                */
 
                 switch (operacion){
                     case "+":
                         resultado = op1 + op2;
-                        txtSalida.setText(String.valueOf(resultado));
                         break;
                     case "-":
                         resultado = op1 - op2;
-                        txtSalida.setText(String.valueOf(resultado));
                         break;
                     case "*":
                         resultado = op1 * op2;
-                        txtSalida.setText(String.valueOf(resultado));
                         break;
                     case "/":
                         resultado = op1 / op2;
-                        txtSalida.setText(String.valueOf(resultado));
                         break;
                 }
 
+                txtSalida.setText(String.valueOf(resultado));
 
+                //Para que el resultado salga entero o double
+                if(resultado % 1 == 0){
+                    txtSalida.setText(String.valueOf((int) resultado));
+                }else{
+                    txtSalida.setText(String.valueOf(resultado));
+                }
             }
         });
     }
@@ -228,9 +228,5 @@ public class VentanaCalculadora {
         frame.setVisible(true);
         frame.setSize(400,500);
         frame.setResizable(false);
-    }
-
-    private void createUIComponents() {
-        // TODO: place custom component creation code here
     }
 }
