@@ -11,7 +11,7 @@ import java.awt.event.ActionListener;
  * La calculadora tambien es capaz de mostrar resultados tanto como enteros o decimales segun corresponda.
  */
 
-public class VentanaCalculadora {
+public class VentanaCalculadora extends JFrame{
     private JPanel main;
     private JTextField txtSalida;
     private JButton buttonAC;
