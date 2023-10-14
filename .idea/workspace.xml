@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acfbc05f-88de-47ef-910c-e63e9dbb5b48" name="Changes" comment="Todos los botones implementados">
+    <list default="true" id="acfbc05f-88de-47ef-910c-e63e9dbb5b48" name="Changes" comment="Resultados en int o double y mejora codigo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/VentanaCalculadora.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +86,20 @@
       <option name="project" value="LOCAL" />
       <updated>1697285864546</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Resultados en int o double y mejora codigo">
+      <option name="closed" value="true" />
+      <created>1697304460227</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697304460227</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Todos los botones implementados" />
-    <option name="LAST_COMMIT_MESSAGE" value="Todos los botones implementados" />
+    <MESSAGE value="Resultados en int o double y mejora codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resultados en int o double y mejora codigo" />
   </component>
 </project>

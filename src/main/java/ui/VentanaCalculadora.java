@@ -4,6 +4,13 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * La clase VentanaCalculadora representa una calculadora con una interfaz grafica de usuario.
+ * Los botones numericos y de operaciones realizan las funciones de una calculadora basica, incluyendo
+ * suma, resta, multiplicacion y division.
+ * La calculadora tambien es capaz de mostrar resultados tanto como enteros o decimales segun corresponda.
+ */
+
 public class VentanaCalculadora {
     private JPanel main;
     private JTextField txtSalida;
@@ -220,6 +227,12 @@ public class VentanaCalculadora {
         });
     }
 
+    /**
+     * Método principal para ejecutar la aplicación de la calculadora.
+     * Crea una instancia de la calculadora y muestra la ventana principal.
+     *
+     * @param args Los argumentos de la línea de comandos (no se utilizan en esta aplicación).
+     */
     public static void main(String[] args) {
         JFrame frame = new JFrame("VentanaCalculadora");
         frame.setContentPane(new VentanaCalculadora().main);
