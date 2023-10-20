@@ -4,10 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acfbc05f-88de-47ef-910c-e63e9dbb5b48" name="Changes" comment="Resultados en int o double y mejora codigo">
+    <list default="true" id="acfbc05f-88de-47ef-910c-e63e9dbb5b48" name="Changes" comment="Añadido boton nuevo y cambio grafico (colores y posicion botones)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org/example/App.html" beforeDir="false" afterPath="$PROJECT_DIR$/org/example/App.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org/example/AppTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/org/example/AppTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org/example/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/org/example/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/org/example/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/org/example/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/serialized-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/VentanaCalculadora.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/VentanaCalculadora.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ui/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/VentanaCalculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/VentanaCalculadora.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/VentanaCalculadora.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package-tree.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,12 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1697799417629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Añadido boton nuevo y cambio grafico (colores y posicion botones)">
+      <option name="closed" value="true" />
+      <created>1697800857020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697800857020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Todos los botones implementados" />
     <MESSAGE value="Resultados en int o double y mejora codigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Resultados en int o double y mejora codigo" />
+    <MESSAGE value="Añadido boton nuevo y cambio grafico (colores y posicion botones)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido boton nuevo y cambio grafico (colores y posicion botones)" />
   </component>
 </project>
