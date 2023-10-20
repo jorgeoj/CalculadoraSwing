@@ -3,6 +3,7 @@ package ui;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.Objects;
 
 /**
  * La clase VentanaCalculadora representa una calculadora con una interfaz grafica de usuario.
@@ -23,17 +24,16 @@ public class VentanaCalculadora extends JFrame{
     private JButton button7;
     private JButton button4;
     private JButton button1;
-    private JButton buttonVacio2;
     private JButton buttonSuma;
     private JButton button8;
     private JButton button5;
     private JButton button2;
     private JButton button0;
-    private JButton buttonVacio1;
     private JButton button9;
     private JButton button6;
     private JButton button3;
     private JButton buttonComa;
+    private JButton buttonMasMenos;
 
     //Variables para las operaciones
     double op1, op2, resultado;
@@ -177,6 +177,23 @@ public class VentanaCalculadora extends JFrame{
                 txtSalida.setText("");
             }
         });
+
+        //Action listener boton +-
+        buttonMasMenos.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                if (!txtSalida.getText().isEmpty() && !Objects.equals(txtSalida.getText(), "0")){
+                    double num = Double.parseDouble(txtSalida.getText());
+                    num = num * -1;
+                    if (num == (int) num) {
+                        txtSalida.setText(String.valueOf((int) num));
+                    } else {
+                        txtSalida.setText(String.valueOf(num));
+                    }
+                }
+            }
+        });
+
         //Action listener boton borrar
         buttonBorrar.addActionListener(new ActionListener() {
             @Override
@@ -225,6 +242,7 @@ public class VentanaCalculadora extends JFrame{
                 }
             }
         });
+
     }
 
     /**
