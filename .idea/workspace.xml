@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acfbc05f-88de-47ef-910c-e63e9dbb5b48" name="Changes" comment="Mejora de codigo (añadir lambdas y alguna mejora)">
+    <list default="true" id="acfbc05f-88de-47ef-910c-e63e9dbb5b48" name="Changes" comment="Version final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ui/VentanaCalculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ui/VentanaCalculadora.java" afterDir="false" />
@@ -134,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697801741790</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Version final">
+      <option name="closed" value="true" />
+      <created>1697878071357</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697878071357</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +150,7 @@
     <MESSAGE value="Resultados en int o double y mejora codigo" />
     <MESSAGE value="Añadido boton nuevo y cambio grafico (colores y posicion botones)" />
     <MESSAGE value="Mejora de codigo (añadir lambdas y alguna mejora)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mejora de codigo (añadir lambdas y alguna mejora)" />
+    <MESSAGE value="Version final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version final" />
   </component>
 </project>
