@@ -2,6 +2,7 @@ package org.example;
 
 import ui.VentanaCalculadora;
 
+import javax.swing.*;
 
 
 /**
@@ -10,13 +11,19 @@ import ui.VentanaCalculadora;
  */
 public class App {
     /**
-     * El metodo principal de la aplicacion, que se encarga de iniciar la calculadora
+     * Método principal para ejecutar la aplicación de la calculadora.
+     * Crea una instancia de la calculadora y muestra la ventana principal.
      *
-     * @param args Los argumentos de la linea de comandos (no se usan en esta aplicacion)
+     * @param args Los argumentos de la línea de comandos (no se utilizan en esta o).
      */
     public static void main(String[] args) {
-        // Crea una instancia de la calculadora y la inicia.
-        VentanaCalculadora calculadora = new VentanaCalculadora();
+        JFrame frame = new JFrame("VentanaCalculadora");
+        frame.setContentPane(new VentanaCalculadora());
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+        frame.setSize(450,500);
+        frame.setResizable(false);
     }
 }
 
